@@ -1,13 +1,13 @@
 /*  your css code here. If applicable */
-.blog-column{
+.blog-container{
 	display:grid;
 	grid-template-columns:repeat(4, 200px);
-	grid-template-rows:auto;
+	grid-template-rows:repeat(2,200px);
 	background:#e5e5e5;
 	padding:20px;
-
+	justify-content:space-between;
 }
-.box-1{
+.column{
 	text-align:center;
 	background:white;
 	height:200px;
@@ -15,35 +15,10 @@
 	box-shadow:0px 0px 2px gray;
 	
 }
-.box-2{
-	text-align:center;
-	background:white;
-	box-shadow:0px 0px 2px gray;
-	height:200px;
-	margin-left:10px;
-	
-}
-.box-3{
-	text-align:center;
-	background:white;
-	box-shadow:0px 0px 2px gray;
-	height:200px;
-	margin-left:20px;
-	
-}
-.box-4{
-	text-align:center;
-	grid-column:2/3;
-	background:white;
-	box-shadow:0px 0px 2px gray;
-	height:200px;
-	margin-top:20px;
-	margin-left:10px
-}
-ul>li{
+ul{
 	list-style-type:none;
 }
-ul{
-	text-align:center;
-	
+ul>li{
+	padding-right:30px;
+	margin:5px;
 }
