@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
-.main-box{
+.blog-column{
 	display:grid;
-	grid-template-columns:repeat(3, 200px);
+	grid-template-columns:repeat(4, 200px);
 	grid-template-rows:auto;
 	background:#e5e5e5;
 	padding:20px;
